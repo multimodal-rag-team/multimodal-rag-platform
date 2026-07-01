@@ -1,0 +1,462 @@
+[
+  {
+    "id": "attn_001",
+    "doc_id": "Attention_Is_All_You_Need",
+    "question": "What architecture does the paper 'Attention Is All You Need' propose?",
+    "expected_answer": "The Transformer, a network architecture based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "attn_002",
+    "doc_id": "Attention_Is_All_You_Need",
+    "question": "What BLEU score did the Transformer achieve on WMT 2014 English-to-German translation?",
+    "expected_answer": "28.4 BLEU on the WMT 2014 English-to-German translation task.",
+    "expected_route": "table",
+    "expected_pages": [8, 9],
+    "chunk_type": "table"
+  },
+  {
+    "id": "attn_003",
+    "doc_id": "Attention_Is_All_You_Need",
+    "question": "What is multi-head attention in the Transformer?",
+    "expected_answer": "Multi-head attention runs the attention function in parallel across multiple learned linear projections, allowing the model to jointly attend to information from different representation subspaces at different positions.",
+    "expected_route": "text",
+    "expected_pages": [4],
+    "chunk_type": "text"
+  },
+  {
+    "id": "yolo3_001",
+    "doc_id": "YOLOv3___AnIncrementalImprovement",
+    "question": "What backbone network does YOLOv3 use?",
+    "expected_answer": "YOLOv3 uses Darknet-53, a 53-layer convolutional network, as its feature extractor backbone.",
+    "expected_route": "text",
+    "expected_pages": [3, 4],
+    "chunk_type": "text"
+  },
+  {
+    "id": "yolo3_002",
+    "doc_id": "YOLOv3___AnIncrementalImprovement",
+    "question": "At how many scales does YOLOv3 detect objects?",
+    "expected_answer": "YOLOv3 predicts bounding boxes at 3 different scales, extracting features from those scales using a feature pyramid network approach.",
+    "expected_route": "text",
+    "expected_pages": [3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "bert_001",
+    "doc_id": "BERT-Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "question": "What does BERT stand for and what is its main contribution?",
+    "expected_answer": "BERT stands for Bidirectional Encoder Representations from Transformers. Its main contribution is pre-training deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "bert_002",
+    "doc_id": "BERT-Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "question": "What two pre-training tasks does BERT use?",
+    "expected_answer": "BERT uses Masked Language Model (MLM) and Next Sentence Prediction (NSP) as its two pre-training tasks.",
+    "expected_route": "text",
+    "expected_pages": [4, 5],
+    "chunk_type": "text"
+  },
+  {
+    "id": "bert_003",
+    "doc_id": "BERT-Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "question": "What are the two model sizes introduced in the BERT paper?",
+    "expected_answer": "BERT-Base (12 layers, 768 hidden units, 12 attention heads, 110M parameters) and BERT-Large (24 layers, 1024 hidden units, 16 attention heads, 340M parameters).",
+    "expected_route": "table",
+    "expected_pages": [4],
+    "chunk_type": "table"
+  },
+  {
+    "id": "resnet_001",
+    "doc_id": "Deep Residual Learning for Image Recognition",
+    "question": "What problem do residual connections in ResNet solve?",
+    "expected_answer": "Residual connections address the degradation problem, where adding more layers to a plain network causes accuracy to saturate and then degrade, by letting layers learn residual mappings with reference to the layer inputs.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "resnet_002",
+    "doc_id": "Deep Residual Learning for Image Recognition",
+    "question": "What top-5 error rate did ResNet achieve on ImageNet ILSVRC 2015?",
+    "expected_answer": "ResNet achieved a 3.57% top-5 error on ImageNet ILSVRC 2015, winning first place in the competition.",
+    "expected_route": "table",
+    "expected_pages": [6, 7],
+    "chunk_type": "table"
+  },
+  {
+    "id": "rag_001",
+    "doc_id": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "expected_answer": "RAG is a model that combines a pre-trained parametric memory (seq2seq model) with a non-parametric memory (dense vector index of Wikipedia) to generate answers, retrieving relevant documents and conditioning generation on them.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "rag_002",
+    "doc_id": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "question": "What retriever does the original RAG paper use?",
+    "expected_answer": "RAG uses a Dense Passage Retriever (DPR) based on bi-encoder architecture with BERT to retrieve documents from a dense index of Wikipedia passages.",
+    "expected_route": "text",
+    "expected_pages": [3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "word2vec_001",
+    "doc_id": "Efficient Estimation of Word Representations in Vector Space",
+    "question": "What two model architectures does the Word2Vec paper propose?",
+    "expected_answer": "The paper proposes Continuous Bag-of-Words (CBOW) and Skip-gram architectures for efficiently computing word vector representations.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "word2vec_002",
+    "doc_id": "Efficient Estimation of Word Representations in Vector Space",
+    "question": "What is the famous analogy example used to demonstrate Word2Vec word vector properties?",
+    "expected_answer": "The famous analogy is: vector('King') - vector('Man') + vector('Woman') results in a vector closest to vector('Queen'), demonstrating that word vectors capture semantic relationships.",
+    "expected_route": "text",
+    "expected_pages": [5],
+    "chunk_type": "text"
+  },
+  {
+    "id": "gan_001",
+    "doc_id": "Generative Adversarial Nets",
+    "question": "What are the two networks in a GAN and how do they interact?",
+    "expected_answer": "A GAN has a Generator (G) that produces synthetic data and a Discriminator (D) that tries to distinguish real from generated data. They are trained adversarially: G tries to fool D while D tries to correctly classify real vs fake samples.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "gan_002",
+    "doc_id": "Generative Adversarial Nets",
+    "question": "Who proposed Generative Adversarial Nets and in what year?",
+    "expected_answer": "Generative Adversarial Nets were proposed by Ian Goodfellow and colleagues in 2014.",
+    "expected_route": "text",
+    "expected_pages": [1],
+    "chunk_type": "text"
+  },
+  {
+    "id": "vgg_001",
+    "doc_id": "VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION",
+    "question": "What is the key architectural choice in VGGNet?",
+    "expected_answer": "VGGNet uses very small (3x3) convolution filters throughout the entire network, which allows building much deeper networks while keeping the number of parameters manageable.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "vgg_002",
+    "doc_id": "VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION",
+    "question": "What depth did VGGNet models evaluate in the paper?",
+    "expected_answer": "VGGNet evaluated network depths from 11 to 19 weight layers (VGG-11 through VGG-19), finding that increasing depth to 16-19 layers improves accuracy.",
+    "expected_route": "text",
+    "expected_pages": [3, 4],
+    "chunk_type": "text"
+  },
+  {
+    "id": "batchnorm_001",
+    "doc_id": "Batch Normalization___Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "question": "What problem does Batch Normalization solve?",
+    "expected_answer": "Batch Normalization addresses internal covariate shift — the change in the distribution of network activations due to the change in network parameters during training — by normalizing layer inputs for each mini-batch.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "batchnorm_002",
+    "doc_id": "Batch Normalization___Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "question": "What training speed improvement does Batch Normalization provide according to the paper?",
+    "expected_answer": "Batch Normalization allows training with much higher learning rates and the paper demonstrates matching the accuracy of a baseline model in 14 times fewer training steps when applied to Inception networks.",
+    "expected_route": "text",
+    "expected_pages": [7, 8],
+    "chunk_type": "text"
+  },
+  {
+    "id": "dropout_001",
+    "doc_id": "Improving neural networks by preventing co-adaptation of feature detectors",
+    "question": "What technique does the dropout paper introduce and how does it work?",
+    "expected_answer": "The paper introduces dropout, which randomly omits each hidden unit with probability 0.5 during training. This prevents co-adaptation of feature detectors and acts as a form of regularization.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "yolo1_001",
+    "doc_id": "You Only Look Once--Unified, Real-Time Object Detection",
+    "question": "What is the core idea of YOLO for object detection?",
+    "expected_answer": "YOLO frames object detection as a single regression problem, dividing the image into an SxS grid and predicting bounding boxes, confidence scores, and class probabilities simultaneously in one forward pass, enabling real-time detection.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "yolo1_002",
+    "doc_id": "You Only Look Once--Unified, Real-Time Object Detection",
+    "question": "What frames per second does YOLO achieve in real-time detection?",
+    "expected_answer": "YOLO processes images at 45 frames per second, and a smaller version called Fast YOLO processes at 155 frames per second, while still achieving double the mAP of other real-time detectors.",
+    "expected_route": "table",
+    "expected_pages": [4],
+    "chunk_type": "table"
+  },
+  {
+    "id": "efficientnet_001",
+    "doc_id": "EfficientNet___Rethinking Model Scaling for Convolutional Neural Networks",
+    "question": "What is compound scaling in EfficientNet?",
+    "expected_answer": "Compound scaling uniformly scales network width, depth, and resolution with a fixed set of scaling coefficients, rather than arbitrarily scaling one dimension, leading to better accuracy and efficiency.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "efficientnet_002",
+    "doc_id": "EfficientNet___Rethinking Model Scaling for Convolutional Neural Networks",
+    "question": "What baseline architecture does EfficientNet scale from?",
+    "expected_answer": "EfficientNet scales from a baseline architecture called EfficientNet-B0, which was found by neural architecture search optimizing for both accuracy and FLOPS.",
+    "expected_route": "text",
+    "expected_pages": [4],
+    "chunk_type": "text"
+  },
+  {
+    "id": "roberta_001",
+    "doc_id": "RoBERTa___ARobustly Optimized BERT Pretraining Approach",
+    "question": "What key training changes does RoBERTa make compared to BERT?",
+    "expected_answer": "RoBERTa trains with more data, larger batches, longer sequences, removes the Next Sentence Prediction task, uses dynamic masking, and uses full-word masking instead of subword masking.",
+    "expected_route": "text",
+    "expected_pages": [3, 4],
+    "chunk_type": "text"
+  },
+  {
+    "id": "xlnet_001",
+    "doc_id": "XLNet___Generalized Autoregressive Pretraining for Language Understanding",
+    "question": "What is the main innovation of XLNet over BERT?",
+    "expected_answer": "XLNet uses a permutation language modeling objective that captures bidirectional context without masking tokens, overcoming BERT's pretrain-finetune discrepancy caused by the [MASK] token.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "bart_001",
+    "doc_id": "BART___Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+    "question": "What pre-training scheme does BART use?",
+    "expected_answer": "BART uses a denoising autoencoder pre-training scheme: the input text is corrupted with various noising functions (token masking, deletion, text infilling, sentence permutation, document rotation) and the model learns to reconstruct the original text.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "adam_001",
+    "doc_id": "ADAM___A METHOD FOR STOCHASTIC OPTIMIZATION",
+    "question": "What does the Adam optimizer compute and what are its key hyperparameters?",
+    "expected_answer": "Adam computes adaptive learning rates for each parameter using first moment (mean) and second moment (uncentered variance) estimates of the gradients. Key hyperparameters are learning rate alpha, beta1 (0.9), beta2 (0.999), and epsilon.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "adam_002",
+    "doc_id": "ADAM___A METHOD FOR STOCHASTIC OPTIMIZATION",
+    "question": "What is bias correction in Adam and why is it needed?",
+    "expected_answer": "Bias correction compensates for the zero-initialized moment estimates being biased towards zero during the initial timesteps. Adam divides the moment estimates by (1 - beta^t) to correct this bias.",
+    "expected_route": "text",
+    "expected_pages": [3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "llm_cardio_001",
+    "doc_id": "LLMs for Cardiovascular Risk Prediction from Structured Clinical Data",
+    "question": "What type of data does the paper use LLMs on for cardiovascular risk prediction?",
+    "expected_answer": "The paper uses structured clinical data (tabular EHR data such as lab values, diagnoses, medications, and demographics) fed into LLMs for cardiovascular risk prediction.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "gbc_001",
+    "doc_id": "GBC_Gradient-Based Connections for Optimizing Multi-Agent Systems",
+    "question": "What does GBC stand for and what is its purpose?",
+    "expected_answer": "GBC stands for Gradient-Based Connections. It is a method for optimizing communication and connections between agents in multi-agent systems using gradient information to determine which connections are most valuable.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "jetson_nano_001",
+    "doc_id": "JETSON NANO DEVELOPER KIT",
+    "question": "What GPU does the Jetson Nano Developer Kit include?",
+    "expected_answer": "The Jetson Nano includes a 128-core Maxwell GPU.",
+    "expected_route": "text",
+    "expected_pages": [1],
+    "chunk_type": "text"
+  },
+  {
+    "id": "jetson_nano_002",
+    "doc_id": "JETSON NANO DEVELOPER KIT",
+    "question": "How much RAM does the Jetson Nano Developer Kit have?",
+    "expected_answer": "The Jetson Nano Developer Kit has 4 GB 64-bit LPDDR4 RAM.",
+    "expected_route": "table",
+    "expected_pages": [1, 2],
+    "chunk_type": "table"
+  },
+  {
+    "id": "jetson_ds_001",
+    "doc_id": "JetsonNano_DataSheet",
+    "question": "What is the CPU configuration of the Jetson Nano module?",
+    "expected_answer": "The Jetson Nano module features a Quad-core ARM Cortex-A57 CPU running at up to 1.43 GHz.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "rpi4_001",
+    "doc_id": "RP-008344-DS-5-raspberry-pi-4-product-brief",
+    "question": "What processor does the Raspberry Pi 4 use?",
+    "expected_answer": "The Raspberry Pi 4 uses a Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC at 1.5GHz.",
+    "expected_route": "text",
+    "expected_pages": [1],
+    "chunk_type": "text"
+  },
+  {
+    "id": "rpi4_002",
+    "doc_id": "RP-008344-DS-5-raspberry-pi-4-product-brief",
+    "question": "What RAM options are available for the Raspberry Pi 4?",
+    "expected_answer": "The Raspberry Pi 4 is available with 2 GB, 4 GB, or 8 GB LPDDR4-3200 SDRAM.",
+    "expected_route": "table",
+    "expected_pages": [1],
+    "chunk_type": "table"
+  },
+  {
+    "id": "nova_001",
+    "doc_id": "NOVA_AVerification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems",
+    "question": "What is the main purpose of NOVA?",
+    "expected_answer": "NOVA is a verification-aware agent harness designed to safely evolve the architecture of industrial recommender systems by using automated verification to validate proposed architectural changes before deployment.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "salsa_001",
+    "doc_id": "SALSA_Speech Aware LLM Adaptation via Learned Steering Activation Vectors",
+    "question": "What is SALSA and what problem does it address?",
+    "expected_answer": "SALSA is Speech Aware LLM Adaptation via Learned Steering Activation Vectors. It addresses the modality gap between speech and text by learning activation steering vectors that adapt LLMs to better process speech inputs.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "prism_001",
+    "doc_id": "Prism Transformer_Progressive Head Schedules for Hierarchical Attention Processing",
+    "question": "What is the core idea of the Prism Transformer?",
+    "expected_answer": "The Prism Transformer uses progressive head schedules that hierarchically allocate attention heads across layers, allowing different heads to specialize at different levels of abstraction and improving representation quality.",
+    "expected_route": "text",
+    "expected_pages": [1, 2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "supersede_001",
+    "doc_id": "Supersede Diagnosing and Training the Memory-Update Gap in LLMAgents",
+    "question": "What is the memory-update gap in LLM agents?",
+    "expected_answer": "The memory-update gap refers to the discrepancy between what an LLM agent stores in its memory and what it actually retrieves and uses when making decisions, leading to outdated or inconsistent agent behavior.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "agenticdb_001",
+    "doc_id": "AgenticDB_Agentic Performance Reconfiguration for Database Workloads",
+    "question": "What does AgenticDB propose for database workload management?",
+    "expected_answer": "AgenticDB proposes using LLM-based agents to autonomously reconfigure database performance parameters in response to changing workloads, replacing manual DBA tuning with an agentic approach.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "distash_001",
+    "doc_id": "DiStash_A Disaggregated Multi-Stash Transactional Key-Value Store",
+    "question": "What is the key architectural feature of DiStash?",
+    "expected_answer": "DiStash uses a disaggregated storage architecture with multiple stashes (storage tiers) that separates compute from storage, enabling efficient transactional key-value operations across heterogeneous memory tiers.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  {
+    "id": "honeypot_001",
+    "doc_id": "AdvancedShelLM--A Stateful Multi-Agent LLM Honeypot for SSH Deception",
+    "question": "What is AdvancedShelLM and how does it use LLMs?",
+    "expected_answer": "AdvancedShelLM is a stateful multi-agent LLM honeypot for SSH deception. It uses LLMs to simulate realistic shell responses to attacker commands, maintaining state across sessions to convincingly deceive malicious actors.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "endedge_001",
+    "doc_id": "End-to-EndDynamicSparsityfor Resource-AdaptiveLLMInference",
+    "question": "What does end-to-end dynamic sparsity achieve for LLM inference?",
+    "expected_answer": "End-to-end dynamic sparsity adaptively activates only a subset of model parameters based on the input at inference time, reducing computation while maintaining accuracy, enabling resource-adaptive deployment on devices with varying capabilities.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "glite_001",
+    "doc_id": "Glite ARF_Verifier-Driven Research with Parallel LLM Coding Agents",
+    "question": "What is Glite ARF and what does verifier-driven research mean in this context?",
+    "expected_answer": "Glite ARF is a framework where parallel LLM coding agents generate code solutions that are evaluated by a verifier (formal checker or test suite). Verifier-driven research means the verification results guide the agents' iterative improvement process.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "parc_001",
+    "doc_id": "P-ARC_Exploiting Subproblem Independence for Parallel Multi-Robot Motion Planning",
+    "question": "How does P-ARC exploit subproblem independence in multi-robot motion planning?",
+    "expected_answer": "P-ARC identifies independent subproblems in multi-robot motion planning (robots whose paths do not conflict) and solves them in parallel, reducing overall planning time compared to sequential approaches.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  },
+  
+  {
+    "id": "ibr_001",
+    "doc_id": "Decentralized Stability of IBR-dominated Power",
+    "question": "What challenge does IBR-dominated power systems face regarding stability?",
+    "expected_answer": "Inverter-Based Resources (IBRs) lack the inherent rotational inertia of synchronous generators, causing reduced frequency stability and making decentralized stability analysis and control more challenging in high-IBR power grids.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "bayesian_cp_001",
+    "doc_id": "Bayesian Changepoint Detection for Smart Sensing",
+    "question": "What is Bayesian changepoint detection used for in smart sensing?",
+    "expected_answer": "Bayesian changepoint detection identifies abrupt statistical changes in sensor data streams, enabling smart sensing systems to detect anomalies, faults, or significant events in monitored physical processes.",
+    "expected_route": "text",
+    "expected_pages": [1, 2],
+    "chunk_type": "text"
+  },
+  {
+    "id": "yolo3_003",
+    "doc_id": "YOLOv3___AnIncrementalImprovement",
+    "question": "How does YOLOv3's mAP compare to RetinaNet and SSD variants on COCO?",
+    "expected_answer": "YOLOv3 achieves 33.0 AP on COCO, on par with SSD variants but 3x faster, though still behind RetinaNet's 40.8 AP. Using the older AP50 metric, YOLOv3 scores 57.9, close to RetinaNet and well above SSD variants.",
+    "expected_route": "table",
+    "expected_pages": [3],
+    "chunk_type": "table"
+  },
+  {
+    "id": "threshold_001",
+    "doc_id": "Threshold Optimization and Dynamic Adaptation",
+    "question": "What is the purpose of dynamic threshold adaptation in classification systems?",
+    "expected_answer": "Dynamic threshold adaptation adjusts decision thresholds in real time based on changing data distributions or operational conditions, maintaining optimal precision-recall trade-offs without requiring model retraining.",
+    "expected_route": "text",
+    "expected_pages": [2, 3],
+    "chunk_type": "text"
+  }
+]
